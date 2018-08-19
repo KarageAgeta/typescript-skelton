@@ -1,0 +1,24 @@
+{
+  "name": "typescript-skelton",
+  "version": "1.0.0",
+  "description": "A skelton repository for using TypeScript + weback",
+  "main": "index.js",
+  "repository": "https://github.com/KarageAgeta/typescript-skelton",
+  "author": "KarageAgeta <yoko.karasaki@gmail.com>",
+  "license": "Apache 2.0",
+  "scripts": {
+    "build": "webpack",
+    "lint": "tslint src/**/*.ts{,x}"
+  },
+  "devDependencies": {
+    "ts-loader": "^4.5.0",
+    "tslint": "^5.11.0",
+    "tslint-config-standard": "^7.1.0",
+    "typescript": "^3.0.1",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0"
+  },
+  "dependencies": {
+    "npm": "^6.4.0"
+  }
+}
